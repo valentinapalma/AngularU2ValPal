@@ -1,0 +1,3 @@
+<!-- Laddar upp två components, en som innehåller listan och en som lägger till nya användare/tar bort -->
+<app-users-list [users]="userList"></app-users-list>
+<app-edit-users [userL]="userList" (addUser)="onAddUser($event)" (removeUser)="onRemoveUser($event)"></app-edit-users>
