@@ -15,7 +15,7 @@ export class UsersListComponent implements OnInit {
 
   isActive: boolean = false;
 
-  /* Skapar en funktion så att toggle funkar */
+  // Skapar en funktion så att toggle funkar
   toggle() {
      this.isActive = !this.isActive;
   }

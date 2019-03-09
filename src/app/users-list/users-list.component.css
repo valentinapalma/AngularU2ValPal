@@ -33,3 +33,7 @@ div {
 .disabled {
     color: rgb(46, 46, 46);
 }
+
+.list {
+    cursor: pointer;
+}

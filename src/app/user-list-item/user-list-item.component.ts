@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UserListItemComponent implements OnInit {
   @Input() user:string;
-  @Input() changeColor:boolean;
 
   constructor() { }
 

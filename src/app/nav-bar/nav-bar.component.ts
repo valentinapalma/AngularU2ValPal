@@ -13,10 +13,12 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  // Funktion som navigerar till login sidan
   onLoginNavi():void {
     this.router.navigate(['/login']);
   }
 
+  // Funktion som navigerar till dashboard
   onDashNavi():void {
     this.router.navigate(['/dashboard']);
   }
